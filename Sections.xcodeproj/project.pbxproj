@@ -14,6 +14,7 @@
 		4B41B435204DED680058C02F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B41B433204DED680058C02F /* LaunchScreen.storyboard */; };
 		4B41B440204DED680058C02F /* SectionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B41B43F204DED680058C02F /* SectionsTests.swift */; };
 		4B41B44B204DED680058C02F /* SectionsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B41B44A204DED680058C02F /* SectionsUITests.swift */; };
+		4B41B459204DEEE80058C02F /* sortednames.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4B41B458204DEEE80058C02F /* sortednames.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		4B41B446204DED680058C02F /* SectionsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SectionsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B41B44A204DED680058C02F /* SectionsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionsUITests.swift; sourceTree = "<group>"; };
 		4B41B44C204DED680058C02F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B41B458204DEEE80058C02F /* sortednames.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = sortednames.plist; path = ../../../Downloads/sortednames.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				4B41B431204DED680058C02F /* Assets.xcassets */,
 				4B41B433204DED680058C02F /* LaunchScreen.storyboard */,
 				4B41B436204DED680058C02F /* Info.plist */,
+				4B41B458204DEEE80058C02F /* sortednames.plist */,
 			);
 			path = Sections;
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B41B459204DEEE80058C02F /* sortednames.plist in Resources */,
 				4B41B435204DED680058C02F /* LaunchScreen.storyboard in Resources */,
 				4B41B432204DED680058C02F /* Assets.xcassets in Resources */,
 				4B41B430204DED680058C02F /* Main.storyboard in Resources */,

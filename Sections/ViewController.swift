@@ -8,11 +8,28 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITableViewDataSource {
+    let sectionTablesIdentifier = "SectionTablesIdentifier"
+    var names: [String:[String]]!
+    var keys: [String]!
+    @IBOutlet weak var tableView: UITableView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        tableView.register(UITableViewCell.self, forCellReuseIdentifier: sectionTablesIdentifier)
+        
+        let path = Bundle.main.path(forResource: "sortedNames", ofType: "plist")
+        
+        let namesDict = NSDictionary(contentsOfFile: path!)
+        
+        names = namesDict as! [String: [String]]
+        keys = (namesDict!.allKeys as! [String]).sorted()
+        
+        
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,6 +37,9 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+   
+    
+    
 
 }
 
